@@ -1,0 +1,528 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/neroyang/code/lebanImPc/src/main/scala/Ui/uiMain.scala, /home/neroyang/code/lebanImPc/src/main/scala/IM.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiMsg.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiUser.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Codegen.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Slick.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Sqlite.scala, /home/neroyang/code/lebanImPc/src/main/scala/Trait/mqttConnection.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiAddUser.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Jdbc.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiLogin.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/neroyang/code/lebanImPc/src/main/scala/Ui/uiMain.scala, /home/neroyang/code/lebanImPc/src/main/scala/IM.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiMsg.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiUser.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Codegen.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Slick.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Sqlite.scala, /home/neroyang/code/lebanImPc/src/main/scala/Trait/mqttConnection.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiAddUser.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Jdbc.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiLogin.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/neroyang/code/lebanImPc/src/main/scala/Ui/uiMain.scala, /home/neroyang/code/lebanImPc/src/main/scala/IM.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiMsg.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiUser.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Codegen.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Slick.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Sqlite.scala, /home/neroyang/code/lebanImPc/src/main/scala/Trait/mqttConnection.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiAddUser.scala, /home/neroyang/code/lebanImPc/src/main/scala/db/Jdbc.scala, /home/neroyang/code/lebanImPc/src/main/scala/Ui/uiLogin.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 11 Scala sources to /home/neroyang/code/lebanImPc/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7ab01c86, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/neroyang/code/lebanImPc/target/scala-2.11/classes:/root/.ivy2/cache/org.scalafx/scalafx_2.11/jars/scalafx_2.11-8.0.92-R10.jar:/root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/root/.ivy2/cache/org.eclipse.paho/org.eclipse.paho.client.mqttv3/eclipse-plugins/org.eclipse.paho.client.mqttv3-1.0.2.jar:/root/.ivy2/cache/org.xerial/sqlite-jdbc/jars/sqlite-jdbc-3.8.11.2.jar:/root/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.10.jar:/root/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/root/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Color.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Color.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Color.class'.[0m
+[0m[[31merror[0m] [0mCould not access term scene in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Color.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Text.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Text.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Text.class'.[0m
+[0m[[31merror[0m] [0mCould not access term scene in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Text.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Shape.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Shape.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Shape.class'.[0m
+[0m[[31merror[0m] [0mCould not access term scene in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Shape.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Node.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Node.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Styleable.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Styleable.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SwingIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SwingIncludes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SwingIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term embed in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SwingIncludes.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SwingNode.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SwingNode.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SwingNode.class'.[0m
+[0m[[31merror[0m] [0mCould not access term embed in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SwingNode.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SwingIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type SwingNode in value <root>.swing,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SwingIncludes.class' was compiled against an incompatible version of <root>.swing.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SFXPanel.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SFXPanel.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SFXPanel.class'.[0m
+[0m[[31merror[0m] [0mCould not access term embed in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SFXPanel.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'SwingIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type JFXPanel in value <root>.swing,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'SwingIncludes.class' was compiled against an incompatible version of <root>.swing.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintSides.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintSides.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PrintSides in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintResolution.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintResolution.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PrintResolution in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintQuality.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintQuality.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PrintQuality in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrinterJob.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrinterJob.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term print in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrinterJob.class'.[0m
+[0m[[31merror[0m] [0mCould not access term print in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrinterJob.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type JobStatus in value <root>.PrinterJob,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.PrinterJob.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PrinterJob in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Printer.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Printer.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Printer.class'.[0m
+[0m[[31merror[0m] [0mCould not access term print in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Printer.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type MarginType in value <root>.Printer,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.Printer.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Printer in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrinterAttributes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrinterAttributes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PrinterAttributes in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintColor.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintColor.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PrintColor in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PaperSource.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PaperSource.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PaperSource in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Paper.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Paper.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Paper in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PageRange.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PageRange.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PageRange in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PageOrientation.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PageOrientation.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PageOrientation in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PageLayout.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PageLayout.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PageLayout in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'JobSettings.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'JobSettings.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type JobSettings in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Collation.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Collation.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PrintIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Collation in value <root>.print,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PrintIncludes.class' was compiled against an incompatible version of <root>.print.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CssIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CssIncludes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CssIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type StyleConverter in value <root>.css,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CssIncludes.class' was compiled against an incompatible version of <root>.css.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'StyleOrigin.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'StyleOrigin.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CssIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type StyleOrigin in value <root>.css,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CssIncludes.class' was compiled against an incompatible version of <root>.css.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CssIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Styleable in value <root>.css,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CssIncludes.class' was compiled against an incompatible version of <root>.css.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PseudoClass.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PseudoClass.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CssIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PseudoClass in value <root>.css,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CssIncludes.class' was compiled against an incompatible version of <root>.css.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ApplicationIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ApplicationIncludes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'HostServices.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'HostServices.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ApplicationIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type HostServices in value <root>.application,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ApplicationIncludes.class' was compiled against an incompatible version of <root>.application.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConditionalFeature.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConditionalFeature.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ApplicationIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type ConditionalFeature in value <root>.application,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ApplicationIncludes.class' was compiled against an incompatible version of <root>.application.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ApplicationIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term application in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ApplicationIncludes.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'JFXApp.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'JFXApp.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'JFXApp.class'.[0m
+[0m[[31merror[0m] [0mCould not access term application in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'JFXApp.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ApplicationIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Parameters in value <root>.Application,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ApplicationIncludes.class' was compiled against an incompatible version of <root>.Application.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CanvasIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CanvasIncludes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CanvasIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term scene in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CanvasIncludes.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'GraphicsContext.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'GraphicsContext.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'GraphicsContext.class'.[0m
+[0m[[31merror[0m] [0mCould not access term scene in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'GraphicsContext.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CanvasIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type GraphicsContext in value <root>.canvas,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CanvasIncludes.class' was compiled against an incompatible version of <root>.canvas.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Canvas.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Canvas.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Canvas.class'.[0m
+[0m[[31merror[0m] [0mCould not access term scene in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Canvas.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'CanvasIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Canvas in value <root>.canvas,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'CanvasIncludes.class' was compiled against an incompatible version of <root>.canvas.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'WorkerStateEvent.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'WorkerStateEvent.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type WorkerStateEvent in value <root>.concurrent,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of <root>.concurrent.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Worker.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Worker.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term concurrent in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'Worker.class'.[0m
+[0m[[31merror[0m] [0mCould not access term concurrent in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'Worker.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type State in value <root>.Worker,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of <root>.Worker.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Worker in value <root>.concurrent,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of <root>.concurrent.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Task in value <root>.concurrent,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of <root>.concurrent.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type ScheduledService in value <root>.concurrent,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of <root>.concurrent.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConcurrentIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type Service in value <root>.concurrent,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConcurrentIncludes.class' was compiled against an incompatible version of <root>.concurrent.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConverterIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConverterIncludes.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConverterIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access term util in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConverterIncludes.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'TimeStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'TimeStringConverter.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'TimeStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term util in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'TimeStringConverter.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConverterIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type TimeStringConverter in value <root>.converter,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConverterIncludes.class' was compiled against an incompatible version of <root>.converter.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ShortStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ShortStringConverter.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ShortStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term util in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ShortStringConverter.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConverterIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type ShortStringConverter in value <root>.converter,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConverterIncludes.class' was compiled against an incompatible version of <root>.converter.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PercentageStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PercentageStringConverter.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'PercentageStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term util in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'PercentageStringConverter.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConverterIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type PercentageStringConverter in value <root>.converter,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConverterIncludes.class' was compiled against an incompatible version of <root>.converter.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'NumberStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'NumberStringConverter.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'NumberStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term util in value javafx,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'NumberStringConverter.class' was compiled against an incompatible version of javafx.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'ConverterIncludes.class'.[0m
+[0m[[31merror[0m] [0mCould not access type NumberStringConverter in value <root>.converter,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'ConverterIncludes.class' was compiled against an incompatible version of <root>.converter.[0m
+[0m[[31merror[0m] [0mmissing or invalid dependency detected while loading class file 'LongStringConverter.class'.[0m
+[0m[[31merror[0m] [0mCould not access term javafx in package <root>,[0m
+[0m[[31merror[0m] [0mbecause it (or its dependencies) are missing. Check your build definition for[0m
+[0m[[31merror[0m] [0mmissing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)[0m
+[0m[[31merror[0m] [0mA full rebuild may help if 'LongStringConverter.class' was compiled against an incompatible version of <root>.[0m
+[0m[[31merror[0m] [0m1502 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

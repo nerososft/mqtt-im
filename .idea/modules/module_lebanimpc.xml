@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_lebanimpc" default="compile.module.lebanimpc">
+  <dirname property="module.lebanimpc.basedir" file="${ant.file.module_lebanimpc}"/>
+  
+  <property name="module.jdk.home.lebanimpc" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.lebanimpc" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.lebanimpc" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.lebanimpc" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="lebanimpc.output.dir" value="${module.lebanimpc.basedir}/../../target/scala-2.11/classes"/>
+  <property name="lebanimpc.testoutput.dir" value="${module.lebanimpc.basedir}/../../target/scala-2.11/test-classes"/>
+  
+  <path id="lebanimpc.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="lebanimpc.module.production.classpath">
+    <path refid="${module.jdk.classpath.lebanimpc}"/>
+    <path refid="library.sbt:_org.scala-lang:scala-library:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.slf4j:slf4j-api:1.7.10:jar.classpath"/>
+    <path refid="library.sbt:_org.reactivestreams:reactive-streams:1.0.0:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe.slick:slick_2.11:3.1.1:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe:config:1.2.1:jar.classpath"/>
+    <path refid="library.sbt:_org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2:jar.classpath"/>
+    <path refid="library.sbt:_org.scala-lang:scala-reflect:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.scalafx:scalafx_2.11:8.0.92-r10:jar.classpath"/>
+    <path refid="library.sbt:_org.xerial:sqlite-jdbc:3.8.11.2:jar.classpath"/>
+  </path>
+  
+  <path id="lebanimpc.runtime.production.module.classpath">
+    <pathelement location="${lebanimpc.output.dir}"/>
+    <path refid="library.sbt:_org.scala-lang:scala-library:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.slf4j:slf4j-api:1.7.10:jar.classpath"/>
+    <path refid="library.sbt:_org.reactivestreams:reactive-streams:1.0.0:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe.slick:slick_2.11:3.1.1:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe:config:1.2.1:jar.classpath"/>
+    <path refid="library.sbt:_org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2:jar.classpath"/>
+    <path refid="library.sbt:_org.scala-lang:scala-reflect:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.scalafx:scalafx_2.11:8.0.92-r10:jar.classpath"/>
+    <path refid="library.sbt:_org.xerial:sqlite-jdbc:3.8.11.2:jar.classpath"/>
+  </path>
+  
+  <path id="lebanimpc.module.classpath">
+    <path refid="${module.jdk.classpath.lebanimpc}"/>
+    <pathelement location="${lebanimpc.output.dir}"/>
+    <path refid="library.sbt:_org.scala-lang:scala-library:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.slf4j:slf4j-api:1.7.10:jar.classpath"/>
+    <path refid="library.sbt:_org.reactivestreams:reactive-streams:1.0.0:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe.slick:slick_2.11:3.1.1:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe:config:1.2.1:jar.classpath"/>
+    <path refid="library.sbt:_org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2:jar.classpath"/>
+    <path refid="library.sbt:_org.scala-lang:scala-reflect:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.scalafx:scalafx_2.11:8.0.92-r10:jar.classpath"/>
+    <path refid="library.sbt:_org.xerial:sqlite-jdbc:3.8.11.2:jar.classpath"/>
+  </path>
+  
+  <path id="lebanimpc.runtime.module.classpath">
+    <pathelement location="${lebanimpc.testoutput.dir}"/>
+    <pathelement location="${lebanimpc.output.dir}"/>
+    <path refid="library.sbt:_org.scala-lang:scala-library:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.slf4j:slf4j-api:1.7.10:jar.classpath"/>
+    <path refid="library.sbt:_org.reactivestreams:reactive-streams:1.0.0:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe.slick:slick_2.11:3.1.1:jar.classpath"/>
+    <path refid="library.sbt:_com.typesafe:config:1.2.1:jar.classpath"/>
+    <path refid="library.sbt:_org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2:jar.classpath"/>
+    <path refid="library.sbt:_org.scala-lang:scala-reflect:2.11.8:jar.classpath"/>
+    <path refid="library.sbt:_org.scalafx:scalafx_2.11:8.0.92-r10:jar.classpath"/>
+    <path refid="library.sbt:_org.xerial:sqlite-jdbc:3.8.11.2:jar.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.lebanimpc">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.lebanimpc">
+    <patternset refid="excluded.from.module.lebanimpc"/>
+  </patternset>
+  
+  <path id="lebanimpc.module.sourcepath">
+    <dirset dir="${module.lebanimpc.basedir}/../../../lebanImPc">
+      <include name="src/main/java"/>
+      <include name="src/main/scala"/>
+      <include name="src/main/scala-2.11"/>
+      <include name="target/scala-2.11/src_managed/main"/>
+      <include name="src/main/resources"/>
+      <include name="target/scala-2.11/resource_managed/main"/>
+    </dirset>
+  </path>
+  
+  <path id="lebanimpc.module.test.sourcepath">
+    <dirset dir="${module.lebanimpc.basedir}/../../../lebanImPc">
+      <include name="src/test/java"/>
+      <include name="src/test/scala"/>
+      <include name="src/test/scala-2.11"/>
+      <include name="target/scala-2.11/src_managed/test"/>
+      <include name="src/test/resources"/>
+      <include name="target/scala-2.11/resource_managed/test"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.lebanimpc" depends="compile.module.lebanimpc.production,compile.module.lebanimpc.tests" description="Compile module lebanimpc"/>
+  
+  <target name="compile.module.lebanimpc.production" depends="register.custom.compilers" description="Compile module lebanimpc; production classes">
+    <mkdir dir="${lebanimpc.output.dir}"/>
+    <javac2 destdir="${lebanimpc.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.lebanimpc}/javac">
+      <compilerarg line="${compiler.args.lebanimpc}"/>
+      <bootclasspath refid="lebanimpc.module.bootclasspath"/>
+      <classpath refid="lebanimpc.module.production.classpath"/>
+      <src refid="lebanimpc.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.lebanimpc"/>
+    </javac2>
+    
+    <copy todir="${lebanimpc.output.dir}">
+      <fileset dir="${module.lebanimpc.basedir}/../../src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../src/main/scala">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../src/main/scala-2.11">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../target/scala-2.11/src_managed/main">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../target/scala-2.11/resource_managed/main">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.lebanimpc.tests" depends="register.custom.compilers,compile.module.lebanimpc.production" description="compile module lebanimpc; test classes" unless="skip.tests">
+    <mkdir dir="${lebanimpc.testoutput.dir}"/>
+    <javac2 destdir="${lebanimpc.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.lebanimpc}/javac">
+      <compilerarg line="${compiler.args.lebanimpc}"/>
+      <bootclasspath refid="lebanimpc.module.bootclasspath"/>
+      <classpath refid="lebanimpc.module.classpath"/>
+      <src refid="lebanimpc.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.lebanimpc"/>
+    </javac2>
+    
+    <copy todir="${lebanimpc.testoutput.dir}">
+      <fileset dir="${module.lebanimpc.basedir}/../../src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../src/test/scala">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../src/test/scala-2.11">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../target/scala-2.11/src_managed/test">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../src/test/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.lebanimpc.basedir}/../../target/scala-2.11/resource_managed/test">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.lebanimpc" description="cleanup module">
+    <delete dir="${lebanimpc.output.dir}"/>
+    <delete dir="${lebanimpc.testoutput.dir}"/>
+  </target>
+</project>
